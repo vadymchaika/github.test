@@ -1,0 +1,99 @@
+Introduction
+	css -
+	xpath //h3[text()='Introduction']
+
+API Docs
+	css [class="navItem"][href="/docs/api.html"]
+	xpath //a[text()="API Docs"]
+
+Protocols
+	css - 
+	xpath //h3[text()='Protocols']
+
+Webdriver Protocol
+	css [class="navItem"][href="/docs/api/webdriver.html"]
+	xpath //a[text()="Webdriver Protocol"]
+
+Appium
+	css [href="/docs/api/appium.html"]
+	xpath //a[text()="Appium" and @class]
+
+JSON Wire Protocol
+	css [href="/docs/api/jsonwp.html"]
+	xpath //a[text()="JSON Wire Protocol"]
+
+Mobile JSON Wire Protocol
+	css [href="/docs/api/mjsonwp.html"]
+	xpath //a[text()="Mobile JSON Wire Protocol"]
+
+Chromium
+	css [href="/docs/api/chromium.html"]
+	xpath //a[text()="Chromium"]
+
+Sauce Labs
+	css [href="/docs/api/saucelabs.html"]
+	xpath //a[text()="Sauce Labs"]
+
+Selenium Standalone
+	css [href="/docs/api/selenium.html"]
+	xpath //a[text()="Selenium Standalone"]
+
+Appium 2
+	css [href="http://appium.io"]
+	xpath //a[text()="Appium" and @href="http://appium.io"]
+
+v4.webdriver.io
+	css [href="http://v4.webdriver.io"]
+	xpath //a[text()="v4.webdriver.io"]
+
+Contribute
+	css a[href="#contribute"]:not([class])
+	xpath //a[text()="Contribute"]
+
+Each command ...
+	css - 
+	xpath //*[contains(text(),'Each command')]
+
+Docs
+	css -
+	xpath //h5[text()="Docs"]
+
+Getting Started
+	css [href="/docs/gettingstarted.html"]:not([target])
+	xpath //a[text()="Getting Started"]
+
+API Reference
+	css [href="/docs/api.html"]:not([class]):not([target])
+	xpath //a[text()="API Reference"]
+
+Help
+	css [href="/help.html"]:not([target])
+	xpath //a[text()="Help" and not(@target)]
+
+Community
+	css - 
+	xpath //h5[text()="Community"]
+
+Stack Overflow
+	css [href="https://stackoverflow.com/questions/tagged/webdriver-io"]
+	xpath //a[text()="Stack Overflow"]
+
+Support Chat
+	css [href="https://gitter.im/webdriverio/webdriverio"]
+	xpath //a[text()="Support Chat"]
+
+Twitter
+	css [href="https://twitter.com/webdriverio"]
+	xpath //a[text()="Twitter"]
+
+More 
+	css -
+	xpath //h5[text()="More"]
+
+Blog 
+	css [href="/blog"]
+	xpath //a[text()="Blog" and not(@target)]
+
+GitHub
+	css [href="https://github.com/webdriverio/webdriverio"]:not([target])
+	xpath //a[text()="GitHub" and not(@target)]

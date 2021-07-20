@@ -1,0 +1,44 @@
+1. 
+Title: go to register page via "Pricing" button.
+Go to https://github.com/
+Scroll down to "Pricing" button
+Click "Join for free" button
+Expected result : user is on the register page.
+
+2.
+Title: test search function on "github community"
+Go to https://github.com/
+Click "Explore" button
+Click "Community forum" button
+Write text "test" in the search field
+Click the green magnifier button
+Expected result : user gets all topics with keyword "test"
+
+3.
+Title: test sort filters on github
+Go to https://github.com/
+Write on the searh field "webdriver"
+Click the magnifier 
+Click "sort" button
+Click on the next any two filters one by one
+Expected result : user gets all repositories with "webdriver" sorted by filters
+
+4.
+Title: click on every github social buttons
+Go to https://github.com/
+Scroll down to the social buttons
+Click on "Twitter" button
+Click on "Facebook" button
+Click on "Youtube" button
+Click on "LinkedIn" button
+Click on "GitHub" button
+Expected result : buttons have to redirect on related websites
+
+5.
+Title: sign in with not valid log and pass
+Go to https://github.com/
+Click "Sign in" button
+Set random username in "Username or email address" field
+Set random password in "Password" field
+Click "Sign in" button
+Expected result : "Incorrect username or password" massage is displayed.

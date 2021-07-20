@@ -1,0 +1,70 @@
+spec 1. DONE
+go to github
+set random email address and click "sign up for github"
+check we are redirected to "github join" page
+label "verify your acc" is displayed in viewport
+
+spec 2. DONE
+go to github
+"sign up for github" click (scroll)
+check we are redirected to "github join" page
+set random values
+
+spec 3. DONE
+go to github
+click "sign in" button
+set valid log and pass
+click "sign in" button
+check we are redirected to profile url
+make additional checks by name or etc.
+
+spec 4. DONE
+go to github
+click "sign in" button
+click "forgot pass"
+set some random value
+
+spec 5. DONE
+go to github
+moveTo "why github"
+moveTo "Explore"
+moveTo "Pricing"
+"why github" "explore" "pricing" is existing
+moveTo "pricing"
+click "plans"
+click "Join for free"
+set random values 
+
+spec 6. DONE
+go to github
+moveTo "explore"
+click "explore github"
+click "topics"
+label "Topics" is visible
+
+spec 7. DONE
+go to github
+in the search field set "webdriverio"
+click on the magnifier 
+click on the "TypeScritp" button
+click the first repository
+check url contains "webdriverio"
+
+spec 8. DONE 
+go to github
+click "Enterprise" (scroll)
+click "Start a free trial"
+click "Cloud"
+set random value
+browser back
+click "server"
+random value
+random radiobutton
+no -> yes
+accept checkbox
+
+spec 9. DONE
+go to github
+click "Careers"
+click "Open positions"
+console log all labels (systems, customer success, design etc.)
